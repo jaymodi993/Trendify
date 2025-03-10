@@ -1,0 +1,4 @@
+(mappedBy = "usedCoupons") 
+
+in coupon.java
+set<user>
