@@ -1,4 +1,7 @@
 package com.trendify.service;
 
-public class AuthService {
+import com.trendify.response.SignupRequest;
+
+public interface AuthService {
+    String createUser(SignupRequest req);
 }
