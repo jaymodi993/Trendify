@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("/ai/chat")
+@RequestMapping("/ai")
 public class AiChatBotController {
 
     private final AiChatBotService aiChatBotService;
